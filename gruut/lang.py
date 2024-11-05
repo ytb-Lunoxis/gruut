@@ -851,6 +851,17 @@ def get_zh_settings(lang_dir=None, **settings_args) -> TextProcessorSettings:
 # Catalan (ca, Catalan)
 # -----------------------------------------------------------------------------
 
+'''
+El transcriptor fonètic basat en regles Segre, desenvolupat conjuntament per la Universitat Politècnica de Catalunya, 
+la Universitat Autònoma de Barcelona i la Universitat de Barcelona en el marc del CREL (Centre de Referència en Enginyeria Lingüística), 
+s'ha usat en la programació de l'adaptació al català del present transcriptor fonètic Gruut, 
+tant per a generar transcripcions d'entrenament del model estadístic com per desenvolupar el codi de pre- i post-processament. 
+La informació sobre Segre es pot trobar a la següent publicació: P. Pachès, C. de la Mota, M. Riera, M. P. Perea, A. Febrer, 
+M. Estruch, J. M. Garrido, M. J. Machuca, A. Río, J. Llisterri, I. Esquerra, J. Hernando, J. Padrell, C. Nadeu, 
+“Segre: An automatic tool for grapheme-to-allophone transcription in Catalan”, 
+Workshop on developing language resources for minority languages, Atenes, 30/05/2000.
+'''
+
 # Pre-Process constants
 # Same for all accents in this version
 VOWEL_CHARS = [
